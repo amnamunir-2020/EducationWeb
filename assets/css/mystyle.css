@@ -1,0 +1,215 @@
+
+ *{font-family: 'Festive', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+} 
+
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none!important;
+}
+
+/* Header Css-------------------- */
+.header-top{
+   text-align: center;
+    padding-top: 10px;
+    background: black;
+}
+.header-top a{
+     color: white;
+}
+.header-top a:hover{
+    color: red;
+    border:1px solid red;
+}
+
+.logo a {
+    border: 1px
+ solid white;
+    padding: 9px 15px 9px 15px;
+    font-size: 30px;
+}
+i.fa.fa-bars:hover{
+    color: red;
+}
+.offcanvas-header{
+    background: red;
+    color: white;
+}
+.offcanvas-body{
+    background: black;
+    color: white;
+}
+
+/* Banner Section ---------------------*/
+.banner{
+    background: url(../images/banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        color: white;
+        text-align: center;
+}
+
+.ml3 {
+   color: white;
+    font-size: 100px;
+  }
+.text h2{
+    color: red;
+}
+/* About Section----------------------- */
+.about-section{
+    background: black;
+    color: white;
+}
+.about-section h1{
+    margin-top: 20px;
+    font-size: 70px;
+}
+.about-section h1:hover{
+  
+   border-bottom: 1px solid red;
+   width: 20%;
+}
+.text-about p {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.text-about p:hover {
+    border-right: 1px solid red;
+}
+
+.text-about a{
+    font-size: 36px;
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+}
+.text-about a:hover{
+    border: 1px solid red;
+    color: white;
+   
+}
+.leaves-image {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+   /*Services Section*/
+   
+  .services-section{
+      background: black;
+      padding: 30px;
+  }
+  .services-section h1{
+    margin-top: 20px;
+    font-size: 70px;
+    color: white;
+}
+.services-section h1:hover{
+    border-bottom: 1px solid red;
+    width: 20%;
+ }
+
+ .wrapper {
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2vmin;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .wrapper img{
+    z-index: 1;
+    grid-column: span 2;
+    max-width: 100%;
+    margin-bottom: -52%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: scale(1);
+    transition: all .25s;
+
+  }
+  .wrapper img:nth-child(7n + 1) {
+    grid-column: 2 / span 2;
+  }
+  
+  .wrapper img:hover {
+    z-index: 2;
+    transform: scale(2);
+  }
+
+
+  .shadow-box {
+    border: 1px
+ solid red;
+    background: red;
+    height: 70vh;
+    padding: 80px;
+    margin: 100px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px red;
+    font-size: 30px;
+    color: white;
+}
+
+/* Video Section */
+.video-section{
+    background: black;
+    color: white;
+}
+
+/* Work Section */
+.work-section{
+    background: red;
+    padding: 50px;
+}
+.work-text {
+   text-align: center;
+}
+.work-text h1{
+    color: white;
+    font-size: 50px;
+}
+
+.work-text a{
+    font-size: 36px;
+    border: 1px solid white;
+    color: black;
+    background: white;
+    padding: 15px;
+
+}
+.work-text a:hover{
+    border: 1px solid white;
+    color: red;
+   
+}
+
+/* Portfolio Section */
+.portfolio-section{
+    background: black;
+}
+.logos{
+    display: flex;
+}
+.logos h2{
+    color: red;
+}
+
+
+.footer-section{
+    background: black;
+    color: white;
+}
